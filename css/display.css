@@ -1,0 +1,115 @@
+body{ margin: 0; padding: 0;font-family: Microsoft Yahei,Tahoma,Arial,simsun;}
+p,form{ margin:0px; padding:0px;}
+h2
+{
+    font-size:20px;
+    line-height:70px;
+    color:#22132d;
+    zoom:1;
+}
+.clearfix:after {
+    display:block;
+    content:'';
+    clear:both;
+    height:0px;
+    visibility: hidden;
+}
+
+
+.clear
+{
+    clear:both;
+    overflow:hidden;
+    height:0;
+}
+.cb{clear: both;}
+.top{ background-color: #01164b; width: 100%; position: relative;height:100px;}
+.top .logo{width: 1000px; margin: 0 auto; margin-top:10px;float:none;}
+.top .logo .left{ float: left;}
+.top .logo .left .logo {margin-top: -15px;}
+.top .logo .left .logo1 {margin-bottom:15px;}
+.top .logo .right{width:200px;height:35px; float: right;margin-top:20px; }
+
+.nav {position:relative;z-index:1;
+    background-color: #01164b;
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    border-top:1px solid black;
+    box-shadow:0 -2px 5px #000;}
+
+.banner{
+    background:url("../images/banner_01.jpg") center top no-repeat;
+    width:inherit;
+    height:286px;
+}
+
+
+
+
+
+
+
+
+.wrap{
+    z-index: 1000;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: -80px;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+
+/*right-box*/
+.wrap .main{
+    width: 1000px;
+    float: right;
+    background: url("../images/right_title1.png") 0px 0px no-repeat;
+    padding-top: 9px;
+    font-family: "微软雅黑", Arial, "宋体";
+}
+.right-box .box-wrap{
+    padding-bottom: 4px;
+    background: url("../images/right_bottom_bg1.png") 0px bottom no-repeat;
+    overflow: hidden;
+}
+.right-box .box-main{
+    background: url("../images/right_bg1.png") repeat-y;
+    padding-top: 1px;
+    overflow: auto;
+}
+.main .right-box-main{
+    padding:20px;
+    color:#262626;
+    padding-bottom:30px;
+    min-height: 370px;
+}
+.main .right-box-main .catalog_title{
+    line-height: 30px;
+    color: #d1a319;
+    font-size: 18px;
+}
+.main .right-box-main .right-position{
+    line-height: 30px;
+    color: #d1a319;
+    font-size: 18px;
+	text-align:center; 
+	overflow:hidden;
+}
+.main .right-box-main .right-position1{
+	min-height:72px;
+	text-align:center; 
+	overflow:hidden;
+}
+	
+.wzlb{
+    padding-left: 40px;
+    line-height: 180%;
+    font-size: 16px;
+}
+
+.bottom{
+    background:#01164b;
+    color:#ffffff;
+}

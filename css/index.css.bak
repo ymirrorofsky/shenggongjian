@@ -1,0 +1,342 @@
+body{ margin: 0; padding: 0;font-family: Microsoft Yahei,Tahoma,Arial,simsun;}
+p,form{ margin:0px; padding:0px;}
+ h2
+{
+    font-size:20px;
+    line-height:70px;
+    color:#22132d;
+    zoom:1;
+}
+.clearfix:after {
+    display:block;
+    content:'';
+    clear:both;
+    height:0px;
+    visibility: hidden;
+}
+
+
+.clear
+{
+    clear:both;
+    overflow:hidden;
+    height:0;
+}
+.cb{clear: both;}
+.top{ background-color: #01164b; width: 100%; position: relative;height:100px;}
+.top .logo{width: 1000px; margin: 0 auto; margin-top:20px;float:none;}
+.top .logo .left{ float: left;}
+.top .logo .left .logo1 {margin-bottom:10px;}
+.top .logo .right{width:200px;height:35px; float: right; background:green;margin-top:20px; }
+
+.nav {position:relative;z-index:1;
+    background-color: #01164b;
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    border-top:1px solid black;
+box-shadow:0 -2px 5px #000;
+-moz-box-shadow:0 -2px 10px #000;
+-webkit-box-shadow:0 -2px 5px #000;
+-o-box-shadow:0 -2px 5px #000;}
+
+.bannerbg {
+            background: url("../images/bannerbg.png") repeat-x 0 0;
+    position:relative;
+}
+.shadow {position:absolute;width: 1100px; height: 350px;left:124px;box-shadow:-5px 1px 10px #aaa;}
+.bannerbg .banner{width: 1100px; height:350px; margin: 0 auto; float:none;
+                               box-shadow:5px 1px 10px #aaa;
+-moz-box-shadow: 8px 1px 10px #ccc;}
+
+.calender {
+
+                width:1000px;
+                position:relative;
+                margin:0 auto;
+}
+.calender .imgTitle
+{
+    position:absolute;
+    top:-45px;
+    left:0;
+    z-index:1;
+    width:1000px;
+    height:45px;
+    text-align:left;
+    overflow:hidden;
+}
+.calender  .imgTitle .bg {
+    background: #252525 none repeat scroll 0 0;
+    height: 45px;
+    opacity: 0.5;
+    ilter:alpha(opacity=50);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.calender .imgTitle .day
+{
+    position:absolute;
+    left:0px;
+    width:114px;
+    height:45px;
+    background: #01164b;
+    text-align:center;
+    line-height:50px;
+    font-size:15px;
+    color:#ffc600;
+}
+.calender  .imgTitle .day.today
+{
+    font-size:24px;
+}
+
+.calender .month
+{
+     height:38px;
+    background: #01164b;
+    position:relative;
+}
+
+.calender .month .arrow
+{
+
+    position:absolute;
+    color:#fff;
+    font-size:20px;
+    line-height:38px;
+    padding:0 3px;
+    *width:28px;
+    cursor:pointer;
+}
+.calender .month .arrowleft
+{
+
+    left:2px;
+    top:10px;
+    width:10px;
+    height:15px;
+    background: url("../images/tb1.png") no-repeat;
+}
+
+.calender .month .arrowright
+{
+    right:2px;
+    top:1px;
+    width:10px;
+    height:15px;
+    background: url("../images/tb2.png") no-repeat;
+}
+
+
+.calender .month .monthTxt
+{
+    float:left;
+    _display:inline;
+    margin:0 15px 0 40px;
+    color:#9884ab;
+}
+
+#calendarYear {display:none;}
+
+.calender .month .monthTxt span
+{
+    font-size:20px;
+    line-height:38px;
+    padding-right:3px;
+    color:#d7d0dd;
+}
+
+
+.calender .month .day
+{
+    float:left;
+    _display:inline;
+    margin:0;
+    padding-left:10px;
+}
+.calender .month .day li {
+    float: left;
+    font-size: 12px;
+    padding: 4px 2px;
+}
+.calender.month ul, li {
+    list-style-type: none;
+}
+.calender .month .day a
+{
+    color:#fff;
+    display:block;
+    line-height:30px;
+    text-align:center;
+    width:24px;
+    cursor:pointer;
+    zoom:1;
+}
+
+
+.calender .month .day a:hover
+{
+    background:#703d97;
+}
+
+.calender .month .day a.none
+{
+    color:#866c9c;
+}
+
+.calender .month .day a.none:hover
+{
+    background:none;
+    cursor:text;
+}
+
+.calender .month .day a.current
+{
+    color:#ffffff;
+}
+.f {
+
+}
+.f .focusList
+{
+
+    margin:0 5px;
+    padding:0px;
+    overflow: hidden;
+}
+
+.f .focusList li
+{
+    float:left;
+    _display:inline;
+    width:300px;
+    margin:0 10px 5px 10px;
+    border-top:2px solid #5c307d;
+    height:280px;
+    overflow:hidden;
+}
+.toutiao .focusList .tn {
+
+    position:relative;
+   margin-left:60px;
+}
+.toutiao .focusList .pic
+{
+
+display: inline-block;
+    width:50px;
+    height:50px;
+    position:absolute;
+        left:-60px;
+
+}
+
+.guanzhu .focusList .tn {
+    width:298px;
+
+}
+.f .focusList .isimg a
+{
+
+    display:inline-block;
+    width: 298px;
+    height:146px;
+}
+.bottom {
+    background: #01164b;
+    color:#ffffff;
+
+}
+.bottom .bottom_main {
+
+}
+
+
+
+ .footerExtra
+{
+    background:#f8f7f4;
+    padding:10px 0;
+     overflow: hidden;
+     margin-top:40px;
+}
+
+ .footerExtra h2
+{
+
+     line-height:25px;
+    font-size:18px;
+    color:#22132d;
+    border-bottom:1px solid #ccc;
+    padding-bottom:10px;
+    margin-bottom:5px;
+    margin-right:10%;
+}
+
+.footerExtra .link
+{
+overflow: hidden;
+}
+ .footerExtra .link li
+{
+    float:left;
+    _display:inline;
+    margin-right:5px;
+}
+
+ .footerExtra .link li a
+{
+    display:block;
+}
+
+ .footerExtra  li.commlink
+{
+    width:750px;
+    margin:0 0 0 20px;
+
+}
+.footerExtra  li.commlink ul
+{
+padding-left:0px;
+}
+ .footerExtra  li.commlink li
+{
+    margin:0;
+    width:25%;
+    line-height:24px;
+}
+
+ .footerExtra  li.commlink li a
+{
+    color:#444;
+     text-decoration: none;
+}
+
+ .footerExtra  li.commlink li a:hover
+{
+    color:#4F608C;
+}
+
+ .footerExtra  li.commlink li i
+{
+    margin-left:10px;
+}
+
+ .footerExtra  li.commlink .line
+{
+    height:0;
+    border-bottom:1px solid #dfdfdf;
+    width:130px;
+    margin:8px 0;
+    overflow:hidden;
+}
+.footerExtra .link .li1,.li2
+{
+    margin-top:30px;
+}
+
